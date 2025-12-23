@@ -22,7 +22,9 @@ vim.keymap.set({ 'n', 'v', 'x'}, '<leader>d', '"+d<CR>')
 
 vim.keymap.set('n', '<leader>f', ":Telescope find_files<CR>")
 vim.keymap.set('n', '<leader>b', ":Telescope buffers<CR>")
+vim.keymap.set('n', '<leader>fg', ":Telescope live_grep<CR>", { desc = 'Telescope live grep' })
 vim.keymap.set('n', '<leader>e', ":NvimTreeOpen<CR>")
 vim.keymap.set('n', '<leader>ec', ":NvimTreeClose<CR>")
+vim.keymap.set("n", "<leader>gg", ":Neogit<CR>", { desc = "Open Neogit UI" })
 
 
