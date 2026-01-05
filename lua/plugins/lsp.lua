@@ -16,7 +16,7 @@ vim.lsp.config("clangd", {
         "--header-insertion=iwyu",
         "--pch-storage=memory",
     },
-    filetypes = { "c", "cpp", "objc", "objcpp", "cuda"},
+    filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "lua"},
 	root_markers = { '.clang-format', 'compile_commands.json' },
     on_attach = on_attach
 })

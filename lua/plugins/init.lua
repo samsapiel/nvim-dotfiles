@@ -1,3 +1,5 @@
 require("plugins.cmake-tools")
 require("plugins.lsp")
 require("plugins.nvim-tree")
+require("plugins.blink-cmp")
+require("plugins.luasnip")
